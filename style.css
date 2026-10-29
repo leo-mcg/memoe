@@ -61,3 +61,4 @@ h3{margin:14px 0 6px;font-size:22px;letter-spacing:-.02em}
 .foot{max-width:1100px;margin:0 auto;padding:36px 20px 56px;color:var(--ink2);font-size:14px;border-top:1px solid var(--surface)}
 .foot nav{display:flex;flex-wrap:wrap;gap:16px;margin:14px 0}.foot a{color:var(--ink);text-decoration:none;font-weight:600}.foot a:hover{color:var(--accent)}.tiny{font-size:12px}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.sample{display:inline-block;margin:-14px 0 18px;font-size:13px;font-weight:700;color:var(--ink2);border:1.5px dashed var(--ink2);padding:4px 12px;border-radius:99px}

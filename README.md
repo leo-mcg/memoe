@@ -6,9 +6,10 @@ Static one-pager for memoe (CommuteGeek Corp.), recreating https://memoe.co/ads.
 - `og.png` and `assets/` icons are copied from memoe.co.
 
 ## Links
-Real (point to memoe.co): terms of sale `/founders/terms`, privacy `/privacy`, features, pricing, support, live leaderboard `https://memoe.co/ads#leaderboard`, video `https://memoe.co/assets/video/intro.mp4` (hotlinked, ~21 MB).
+- **checkout**: memoe's server creates the Stripe checkout session on the fly, so there's no fixed checkout link. Every take your place / preorder / choose your price button opens https://memoe.co/ads in a new tab.
+- **leaderboard**: a static top 3 labelled "sample" (fake names, `$—`), with a "see the live leaderboard" link to https://memoe.co/ads.
+- Other real links: App Store https://apps.apple.com/app/id6819942099, beta waitlist https://tally.so/r/kdV8Ze, memoe.co, terms of sale `/founders/terms`, privacy, features, pricing, support. The video is hotlinked from `https://memoe.co/assets/video/intro.mp4` (~21 MB).
 
-Placeholders (swap before launch):
-- **checkout**: preorder buttons go to `https://memoe.co/ads#preorder` (the existing Stripe-backed form). Replace with a direct Stripe payment link if wanted.
-- **"x% off" memoe pro**: the discount amount is TBA.
-- **leaderboard top 3**: static "founder #1–3" with `$—`. Not real data.
+## Placeholders
+- **"x% off" memoe pro**: the discount amount is TBA, waiting on the client.
+- **sample leaderboard**: not real data.
